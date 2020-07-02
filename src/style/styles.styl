@@ -1,0 +1,89 @@
+body
+  background-color ghostwhite
+
+*
+  margin: 0
+
+.form
+  display flex
+  justify-content center
+  margin-top 75px
+
+.task__list
+  margin-top 50px
+  padding-left 25px
+  padding-right: 25px;
+
+.form__input
+  background-color #fff
+  font-size 21px
+  box-shadow: 0 5px 15px -3px rgba(0, 0, 0, .3);
+  color black
+  border-radius: 5px;
+  padding 8px 7px
+  width 35vw
+  outline none
+  border 0
+
+.form__button
+  background-color #68e177
+  color white
+  border 0
+  border-radius 5px
+  padding 8px 25px
+  cursor pointer
+  font-size 21px
+  margin-left: 15px;
+  box-shadow: 0 5px 15px -3px rgba(0, 0, 0, .3);
+
+::-webkit-input-placeholder
+  color rgba(1,1,1, 0.3)
+
+
+.task
+  width 420px
+  background-color white
+  box-shadow: 0 5px 15px -3px rgba(0, 0, 0, .3);
+  border-radius 5px
+  padding 15px;
+  display flex
+
+.task__text
+  align-items center
+  display flex
+  width 360px
+
+.task__buttons
+  margin-left 15px
+
+.task__completed
+  font-size 21px
+  color #68e177
+  border 2px solid #68e177
+  padding-left: 12px
+  padding-right: 12px
+  cursor pointer
+  border-radius 5px
+  text-align center
+
+.task__completed__active
+  background-color #68e177
+  color white
+
+.task__remove
+  font-size 21px
+  margin-top 10px
+  text-align center
+  color #dd3646
+  border 2px solid #dd3646
+  padding-left: 12px
+  padding-right: 12px
+  cursor pointer
+  border-radius 5px
+
+.task__list
+  display grid
+  grid-template-columns repeat(auto-fill, 450px);
+  grid-column-gap 20px
+  grid-row-gap 25px
+
